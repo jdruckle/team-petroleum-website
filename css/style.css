@@ -951,6 +951,10 @@ button {
   z-index: 9;
 }
 
+.navigation img {
+	height: 150px;
+}
+
 @media (max-width: 991px) {
   .navigation .navbar-brand {
     position: relative;
@@ -2407,6 +2411,10 @@ ul.tag-list li a:hover {
   height: 12px;
   width: auto;
   color: #fff;
+}
+
+.mb-30 {
+	height: 150px;
 }
 
 .footer-links li a {
