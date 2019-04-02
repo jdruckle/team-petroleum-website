@@ -1128,53 +1128,6 @@ button {
   outline: 0;
 }
 
-.hero-slider .prevArrow,
-.hero-slider .nextArrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 9;
-  height: 70px;
-  width: 70px;
-  border-radius: 50%;
-  background: rgba(48, 48, 50, 0.5);
-  color: #fff;
-  border: 0;
-  font-size: 25px;
-  line-height: 70px;
-  opacity: 0;
-  transition: all linear .2s;
-}
-
-@media (max-width: 575px) {
-  .hero-slider .prevArrow,
-  .hero-slider .nextArrow {
-    display: none;
-  }
-}
-
-.hero-slider .prevArrow:focus,
-.hero-slider .nextArrow:focus {
-  outline: 0;
-}
-
-.hero-slider .prevArrow:hover,
-.hero-slider .nextArrow:hover {
-  background: rgba(232, 68, 68, 0.5);
-}
-
-.hero-slider .prevArrow {
-  left: 20px;
-}
-
-.hero-slider .nextArrow {
-  right: 20px;
-}
-
-.hero-slider:hover .prevArrow, .hero-slider:hover .nextArrow {
-  opacity: 1;
-}
-
 .hero-slider .slick-dots {
   bottom: -81px;
   padding-left: 0;
