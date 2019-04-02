@@ -1,40 +1,10 @@
 (function ($) {
     'use strict';
 
-    // Preloader js    
+    // Preloader js
     $(window).on('load', function () {
         $('.preloader').fadeOut(700);
     });
-
-    //  Search Form Open
-    $('#searchOpen').on('click', function () {
-        $('.search-form').addClass('open');
-    });
-    $('#searchClose').on('click', function () {
-        $('.search-form').removeClass('open');
-    });
-
-    //Hero Slider
-    $('.hero-slider').slick({
-        autoplay: true,
-        infinite: true,
-        arrows: true,
-        prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-arrow-left\'></i></button>',
-        nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-arrow-right\'></i></button>',
-        dots: true,
-        customPaging: function (slider, i) {
-            var icon = $(slider.$slides[i]).data('icon');
-            var text = $(slider.$slides[i]).data('text');
-            return '<a><i class="' + icon + '"></i><span>' + text + '</span></a>';
-        },
-        responsive: [{
-            breakpoint: 576,
-            settings: {
-                arrows: false
-            }
-        }]
-    });
-    $('.hero-slider').slickAnimation();
 
     // hero slider without pagination
     $('.hero-slider-2').slick({
@@ -85,14 +55,14 @@
         arrows: true,
         autoplay: true,
         prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-arrow-left\'></i></button>',
-        nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-arrow-right\'></i></button>'
+        nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'\'></i></button>'
     });
     // about post slider
     $('.post-slider').slick({
         arrows: true,
         autoplay: true,
         prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-arrow-left\'></i></button>',
-        nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-arrow-right\'></i></button>'
+        nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'\'></i></button>'
     });
 
     // Accordions
@@ -109,7 +79,7 @@
         arrows: true,
         autoplay: true,
         prevArrow: '<button type=\'button\' class=\'prevArrow\'><i class=\'ti-arrow-left\'></i></button>',
-        nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'ti-arrow-right\'></i></button>'
+        nextArrow: '<button type=\'button\' class=\'nextArrow\'><i class=\'\'></i></button>'
     });
 
     // clients logo slider
