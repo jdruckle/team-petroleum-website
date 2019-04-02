@@ -44,7 +44,6 @@ VERSION:	1.0.0
 9. CONTACT
 
     9.1. Address Item
-    9.2. Google Map
     9.3. COntact Form
 
 10. CLIENT LOGO SLIDER
@@ -152,7 +151,6 @@ VERSION:	1.0.0
 
     22.1 contact item
     22.2 contact form
-    22.3 google map
 
 23. SIGNUP WRAPPER
 
@@ -2085,15 +2083,6 @@ ul.tag-list li a:hover {
 
 .form-control::placeholder {
   color: #666;
-}
-
-/* 22.3 google map */
-.map {
-  position: relative;
-}
-
-.map #map_canvas {
-  height: 450px;
 }
 
 /* 23.1 signup greetings */
