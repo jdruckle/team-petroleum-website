@@ -2419,37 +2419,6 @@ ul.tag-list li a:hover {
   color: #e84444;
 }
 
-/* 25.3 subcription */
-.form-control.subscribe {
-  width: 100%;
-  border-radius: 35px;
-  border: 0;
-  padding: 0 20px !important;
-  height: 50px;
-}
-
-/* subscribe button */
-.btn-subscribe {
-  position: absolute;
-  right: 5px;
-  top: 5px;
-  border: 0;
-  height: 40px;
-  width: 40px;
-  border-radius: 50%;
-  color: #fff;
-  background: #e84444;
-  transition: all linear .2s;
-}
-
-.btn-subscribe:hover {
-  padding-left: 15px;
-}
-
-.btn-subscribe:focus {
-  outline: 0;
-}
-
 /* back to top button */
 .back-to-top {
   position: absolute;
