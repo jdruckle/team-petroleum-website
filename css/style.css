@@ -1838,6 +1838,7 @@ img.arrow-bottom {
 .nav-tabs {
   border: 0;
   margin-bottom: 30px;
+  justify-content: center;
 }
 
 @media (max-width: 991px) {
