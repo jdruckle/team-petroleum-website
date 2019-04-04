@@ -602,34 +602,6 @@ button {
   padding: 160px 0 100px;
 }
 
-/* breadcrumb */
-.breadcrumb {
-  background-color: transparent !important;
-  -ms-flex-pack: center;
-      justify-content: center;
-}
-
-.breadcrumb li,
-.breadcrumb a {
-  color: #fff;
-  font-family: "Poppins", sans-serif;
-  font-weight: 600;
-  font-size: 12px;
-  margin: 0 10px;
-}
-
-.breadcrumb a {
-  position: relative;
-}
-
-.breadcrumb a::before {
-  position: absolute;
-  content: '/';
-  right: -17px;
-  top: 2px;
-  height: 12px;
-}
-
 /* 1.2.2 404 page start */
 .page-404 {
   padding: 600px 0 60px;
