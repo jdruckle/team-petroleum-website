@@ -55,7 +55,7 @@ VERSION:	1.0.0
     12.1 background image
     12.2 form-control
 
-13. ABOUT SECTION
+13. SEMINARS SECTION
 
     13.1 about content
     13.2 about item
@@ -64,11 +64,13 @@ VERSION:	1.0.0
     13.5 about content 3
     13.6 about slider
     13.7 philosophy
-    13.8 ceo
+    13.8 center-pad
 
-        13.8.1 ceo item
-        13.8.1 ceo content
-        13.8.1 ceo content-2
+        13.8.1 center-pad item
+        13.8.1 center-pad content
+        13.8.1 center-pad content-2
+
+    13.9 calendar
 
 
 14. SERVICE SECTION
@@ -1391,6 +1393,29 @@ button {
 }
 
 /* card */
+  #accordion .card-header {
+    width: 30vw;
+    margin-right: 100px;
+  }
+
+  #accordion .card-body {
+    margin-left: 2vw;
+    margin-right: 2vw;
+  }
+
+  @media (max-width: 1500px) {
+    #accordion .card-header {
+      width: 90vw;
+      margin-left: 5vw;
+      margin-right: 5vw;
+    }
+
+    #accordion .card-body {
+      margin-left: 10vw;
+      margin-right: 5vw;
+    }
+  }
+
 .card-img-wrapper {
   position: relative;
 }
@@ -1501,15 +1526,119 @@ button {
   right: 25px;
 }
 
-/* 13.8 ceo section start */
-.ceo-image {
+/* 13.8 center-pad section start */
+.center-pad-image {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
   min-height: 400px;
 }
 
-/* ceo section end */
+/* center-pad section end */
+
+/* 13.9 calendar */
+#calendar {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.event-list {
+		list-style: none;
+		font-family: 'Lato', sans-serif;
+		margin: 0px;
+		padding: 0px;
+	}
+	.event-list > li {
+		background-color: rgb(255, 255, 255);
+		box-shadow: 0px 0px 5px rgb(51, 51, 51);
+		box-shadow: 0px 0px 5px rgba(51, 51, 51, 0.7);
+		padding: 0px;
+		margin: 0px 0px 20px;
+	}
+	.event-list > li > time {
+		display: inline-block;
+		width: 100%;
+		color: rgb(255, 255, 255);
+		background-color: #c60606;
+		padding: 5px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+	.event-list > li:nth-child(even) > time {
+		background-color: #e84444;
+	}
+	.event-list > li > time > span {
+		display: none;
+	}
+	.event-list > li > time > .day {
+		display: block;
+		font-size: 56pt;
+		font-weight: 100;
+		line-height: 1;
+	}
+	.event-list > li time > .month {
+		display: block;
+		font-size: 24pt;
+		font-weight: 900;
+		line-height: 1;
+	}
+	.event-list > li > .info {
+		padding-top: 5px;
+		text-align: center;
+	}
+	.event-list > li > .info > .title {
+		font-size: 17pt;
+		font-weight: 700;
+		margin: 0px;
+	}
+	.event-list > li > .info > .desc {
+		font-size: 13pt;
+		font-weight: 300;
+		margin: 0px;
+	}
+
+	@media (min-width: 768px) {
+		.event-list > li {
+			position: relative;
+			display: block;
+			width: 100%;
+			height: 120px;
+			padding: 0px;
+		}
+		.event-list > li > time {
+			display: inline-block;
+		}
+		.event-list > li > time {
+			width: 120px;
+			float: left;
+		}
+		.event-list > li > .info {
+			background-color: rgb(245, 245, 245);
+			overflow: hidden;
+		}
+		.event-list > li > time {
+			width: 120px;
+			height: 120px;
+			padding: 0px;
+			margin: 0px;
+		}
+		.event-list > li > .info {
+			position: relative;
+			height: 120px;
+			text-align: left;
+			padding-right: 40px;
+		}
+		.event-list > li > .info > .title,
+		.event-list > li > .info > .desc {
+			padding: 0px 10px;
+		}
+		.event-list > li > .info > ul {
+			position: absolute;
+			left: 0px;
+			bottom: 0px;
+		}
+	}
+
 /* 14.3 clients */
 .clients {
   background-position: center right;
