@@ -1545,13 +1545,13 @@ button {
 		display: inline-block;
 		width: 100%;
 		color: rgb(255, 255, 255);
-		background-color: #c60606;
+		background-color: #FF1B0A;
 		padding: 5px;
 		text-align: center;
 		text-transform: uppercase;
 	}
 	.event-list > li:nth-child(even) > time {
-		background-color: #e84444;
+		background-color: #EB3857;
 	}
 	.event-list > li > time > span {
 		display: none;
