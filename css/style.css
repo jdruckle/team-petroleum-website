@@ -2542,6 +2542,14 @@ ul.tag-list li a:hover {
   color: #fff;
 }
 
+footer .backlink {
+  color: #fff;
+}
+
+footer .backlink:hover {
+  color: #d0cdcd;
+}
+
 .mb-30 {
 	height: 150px;
 }
