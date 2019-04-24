@@ -57,12 +57,7 @@ VERSION:	1.0.0
 
 13. SEMINARS SECTION
 
-    13.1 about content
-    13.2 about item
-    13.3 about content 2
-    13.4 about video
-    13.5 about content 3
-    13.6 about slider
+    13.1 typewriter
     13.7 philosophy
     13.8 center-pad
 
@@ -1467,59 +1462,11 @@ button {
   border-radius: 5px 5px 0 0;
 }
 
-/* 13. about section */
-.about {
-  background-position: top center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  /* 13.4 about video */
-  /* 13.6 about slider */
+/* 13. typerwriter section */
+.typewrite {
+  font-size: 40px;
 }
 
-.about-video {
-  min-height: 300px;
-}
-
-.about-slider {
-  position: relative;
-  border-radius: 10px;
-  overflow: hidden;
-}
-
-.about-slider .prevArrow,
-.about-slider .nextArrow {
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-  z-index: 9;
-  height: 55px;
-  width: 55px;
-  border-radius: 50%;
-  border: 0;
-  line-height: 55px;
-  text-align: center;
-  background: #fff;
-  transition: .2s ease;
-}
-
-.about-slider .prevArrow:focus,
-.about-slider .nextArrow:focus {
-  outline: 0;
-}
-
-.about-slider .prevArrow:hover,
-.about-slider .nextArrow:hover {
-  background: #e84444;
-  color: #fff;
-}
-
-.about-slider .prevArrow {
-  left: 25px;
-}
-
-.about-slider .nextArrow {
-  right: 25px;
-}
 
 /* 13.8 center-pad section start */
 .center-pad-image {
