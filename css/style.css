@@ -821,8 +821,20 @@ button {
   padding: 160px 0;
 }
 
+.ml-40 {
+  margin-left: 40px;
+}
+
 .ml-65 {
   margin-left: 65px;
+}
+
+.ml-80 {
+  margin-left: 80px;
+}
+
+.ml-120 {
+  margin-left: 120px;
 }
 
 .pb-xl-200-lg-100 {
@@ -1097,6 +1109,10 @@ button {
   margin-bottom: 80px;
 }
 
+.hero-content .mobileOnly {
+  display: none;
+}
+
 .hero-slider [data-animation-in] {
   opacity: 0;
 }
@@ -1183,6 +1199,13 @@ button {
   .hero-slider .slick-dots li a i {
     font-size: 20px;
     margin-right: 5px;
+  }
+  .hero-content .mobileOnly {
+    display: block;
+    text-align: center;
+  }
+  .hero-content .desktopOnly {
+    display: none;
   }
 }
 
