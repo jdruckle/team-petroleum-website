@@ -1367,6 +1367,10 @@ button {
       align-items: center;
 }
 
+.client-logo-slider img {
+  height: 75px;
+}
+
 /* client logo slider end */
 /* 11. fun-facts section start */
 .fun-facts {
