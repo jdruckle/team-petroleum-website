@@ -869,6 +869,11 @@ button {
   transform: translateY(-33px);
 }
 
+
+#about {
+  background-color: rgb(240,240,240);
+}
+
 /* 2. Navigation */
 .top-header {
   background: #303032;
@@ -1657,9 +1662,6 @@ img.arrow-bottom {
 }
 
 /* service single start */
-#about {
-  background-color: rgb(240,240,240);
-}
 
 .service-menu li.active {
   position: relative;
