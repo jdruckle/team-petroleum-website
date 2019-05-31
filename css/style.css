@@ -1657,6 +1657,10 @@ img.arrow-bottom {
 }
 
 /* service single start */
+#about {
+  background-color: rgb(240,240,240);
+}
+
 .service-menu li.active {
   position: relative;
 }
