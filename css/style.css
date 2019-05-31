@@ -1118,9 +1118,11 @@ button {
 }
 
 .hero-slider-item {
+  background: url(../images/teamTruck2.jpg);
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover;
+  background-size: 100%;
+  width: 100%;
   outline: 0;
 }
 
