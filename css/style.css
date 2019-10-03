@@ -1274,6 +1274,10 @@ button {
 
 /* promo video section end */
 /* 8. testimonial section start */
+.checked {
+  color: orange;
+  font-size: 40px;
+}
 .testimonials {
   padding-top: 50px;
   padding-bottom: 50px;
