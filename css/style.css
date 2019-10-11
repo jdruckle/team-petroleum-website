@@ -1122,33 +1122,39 @@ button {
   opacity: 0;
 }
 
-.hero-slider-item {
-  background: url(../images/teamTruck2.jpg);
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100%;
-  width: 100%;
-  outline: 0;
+.fullscreen-bg {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    overflow: hidden;
+    z-index: -100;
 }
 
-.hero-slider .slick-dots {
-  bottom: -81px;
-  padding-left: 0;
-  text-align: center;
-  border-bottom: 1px solid #e5e5e5;
+.fullscreen-bg__video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: auto;
+    min-width: 100%;
+    min-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+       -moz-transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+	    transform: translate(-50%, -50%);
 }
 
-.hero-slider .slick-dots li {
-  width: 295px;
-  height: 80px;
-  background: #fff;
-  margin: 0;
-  display: inline-block;
-  position: relative;
-  /* @include mobile-xs {
-                    width: 50px;
-                } */
-}
+/* @media (max-width: 767px) {
+    .fullscreen-bg {
+        background: url('images/VideoSnapshot.PNG') center center / cover no-repeat;
+    }
+
+    .fullscreen-bg__video {
+        display: none;
+    }
+} */
 
 @media (max-width: 1199px) {
   .hero-slider .slick-dots li {
@@ -1254,6 +1260,13 @@ button {
 
 .hero-content h4 {
   letter-spacing: 2px;
+}
+
+.hero-content {
+  padding: 15px;
+  background: rgba(255,255,255,0.8);
+  border-radius: 15px;
+  width: auto;
 }
 
 /* 6. mission section start */
