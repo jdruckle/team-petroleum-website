@@ -711,7 +711,7 @@ button {
 }
 
 .bg-secondary {
-  background-color: #303032 !important;
+  background-color: #484849 !important;
 }
 
 .text-primary {
@@ -876,7 +876,7 @@ button {
 
 /* 2. Navigation */
 .top-header {
-  background: #303032;
+  background: #484849;
 }
 
 @media (max-width: 575px) {
@@ -919,7 +919,7 @@ button {
 
 .navigation, .navigation .navbar {
   padding: 0;
-  background: #303032 !important;
+  background: #484849 !important;
   position: relative;
 }
 
@@ -1018,7 +1018,7 @@ button {
 }
 
 .navigation .navbar .nav-item.active .nav-link {
-  color: #e84444;
+  color: #ff4a4a;
 }
 
 .navigation .navbar .dropdown:hover .dropdown-menu {
