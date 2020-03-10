@@ -175,6 +175,18 @@ body {
   font-size: 15px;
 }
 
+@media (max-width: 1199px) {
+  .desktop {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) {
+  .mobile {
+    display: none;
+  }
+}
+
 p, .paragraph {
   font-weight: 400;
   color: #666;
